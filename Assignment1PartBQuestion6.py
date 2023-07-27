@@ -8,20 +8,18 @@ a = eval(input("Enter first number: "))
 b = eval(input("Enter second number: "))
 while(b < a):
     b = eval(input("Enter second number greater than first number: "))
-c = a
+
 if(a % 2 == 0):
-    while(c<b):
-        list1 = a + 2
-        c+=2
+    while(a<b):
+        
         a+=2
-        print(list1, end=", ")
+        print(a, end=", ")
 else:
-    while(c<b):
-        list1 = a + 1
-        c+=2
+    while(a<b):
+        x=a+1
         a+=2
-        print(list1, end=", ")
+        print(x, end=", ")
     
-    
+
     
 
